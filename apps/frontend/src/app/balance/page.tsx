@@ -10,32 +10,32 @@ import api from "@/lib/api";
 const TICKET_EXCHANGE_OPTIONS = [
   {
     meatsRequired: 20,
+    ticketsReceived: 1,
+  },
+  {
+    meatsRequired: 23,
     ticketsReceived: 3,
   },
   {
-    meatsRequired: 50,
-    ticketsReceived: 8,
+    meatsRequired: 25,
+    ticketsReceived: 5,
   },
-  {
-    meatsRequired: 70,
-    ticketsReceived: 12,
-  },
-  {
-    meatsRequired: 100,
-    ticketsReceived: 18,
-  },
-  {
-    meatsRequired: 120,
-    ticketsReceived: 22,
-  },
-  {
-    meatsRequired: 150,
-    ticketsReceived: 28,
-  },
-  {
-    meatsRequired: 180,
-    ticketsReceived: 35,
-  },
+  // {
+  //   meatsRequired: 100,
+  //   ticketsReceived: 18,
+  // },
+  // {
+  //   meatsRequired: 120,
+  //   ticketsReceived: 22,
+  // },
+  // {
+  //   meatsRequired: 150,
+  //   ticketsReceived: 28,
+  // },
+  // {
+  //   meatsRequired: 180,
+  //   ticketsReceived: 35,
+  // },
 ] as const;
 
 const SkeletonCard = () => (
